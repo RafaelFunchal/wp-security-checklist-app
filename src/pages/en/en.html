@@ -1,0 +1,226 @@
+<ion-header>
+  <ion-navbar>
+
+    <ion-buttons start>
+      <button start left ion-button icon-only menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-title>
+      <ion-icon name="unlock"></ion-icon> Checklist
+    </ion-title>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <h5>Most of the time a website running WordPress is hacked the culprit is not WordPress, but of any silly misconfiguration that could be avoided during its development.</h5>
+  <h5>That's the idea of this project: Being a checklist of actions that you should take to increase the security of your website.</h5>
+
+
+  <ion-list>
+
+    <ion-list-header>Login page</ion-list-header>
+
+    <ion-item>
+      <ion-label>Lockdown the login page for repetitive failed login (Login Lockdown or iThemes Security)</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Activate 2 factor authentication (Google Authenticator for WordPress)</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Use email address to login instead of username (WP Email Login)</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Rename the URL of your login page (iThemes Security or directly on .htaccess)</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Remove login links from the theme (if there's any)</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Use a strong password contaning uppercase, lowercase, numbers, and special characters on all accounts</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Make the login error messages more generical (user/pass)</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-list>
+
+    <ion-list-header>Administrative Panel</ion-list-header>
+
+    <ion-item>
+      <ion-label>Password protect the folder wp-admin</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Keep WordPress up-to-date</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Do not create an account with username admin. If there is any, create a new Administrator account and delete the old one</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Create an Editor account and use it solely to publish content</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Implement SSL for the WordPress admin section</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Install any plugins to check file changes (WP Security Scan, Wordfence or iThemes Security)</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Scan the website for viruses, malware, and security breaches</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-list>
+
+    <ion-list-header>Themes</ion-list-header>
+
+    <ion-item>
+      <ion-label>Keep the theme up-to-date</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Delete and remove unused themes</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Download and use themes only from reputable sources</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Remove the WordPress version from the theme</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-list>
+
+    <ion-list-header>Plugins</ion-list-header>
+
+    <ion-item>
+      <ion-label>Keep all plugins up-to-date</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Delete and remove unused plugins</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Download and use plugins only from reputable sources</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Replace outdated plugins for alternative newer plugins</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Think twice before installing a ton of plugins</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-list>
+
+    <ion-list-header>Database</ion-list-header>
+
+    <ion-item>
+      <ion-label>Change the default table prefix</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Schedule weekly backup of the database (Backup WP or WP DB Backup)</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Use a strong password contaning uppercase, lowercase, numbers, and special characters for the database user</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-list>
+
+    <ion-list-header>Hosting provider</ion-list-header>
+
+    <ion-item>
+      <ion-label>Hire a reliable hosting provider</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Connect to your server only through SFTP or SSH</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Set all folder permission to 755 and files to 644</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Make sure the wp-config.php file is not accessible by others</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Remove or block via .htaccess the files license.txt, wp-config-sample.php, and readme.html</ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Disable file edit via wp-config.php by adding the following code: <code>define('DISALLOW_FILE_EDIT',true);</code></ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Prevent directory listing via .htaccess by adding the following code: <code>Options All -IndexesOptions All -Indexes</code></ion-label>
+      <ion-checkbox color="blue"></ion-checkbox>
+    </ion-item>
+
+  </ion-list>
+
+  <button ion-button onclick="window.open('http://wpsecuritychecklist.org/items/', '_system', 'location=yes'); return false;">Open in browser</button>
+
+</ion-content>

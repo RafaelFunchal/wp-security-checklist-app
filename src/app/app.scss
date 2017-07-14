@@ -14,3 +14,52 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+$white: #fff;
+$gray: #ddd;
+$red: #e04f60;
+$blue: #168db8;
+
+
+.button,
+.tabs-ios .tabbar,
+.toolbar-background,
+.tabs-md .tabbar {
+    background: $blue;
+}
+
+h5,
+ion-list-header ion-label,
+ion-icon,
+ion-menu ion-tabs ion-label,
+ion-content ion-label,
+.toolbar-title,
+.tabs-ios .tab-button,
+.tabs-ios .tab-button-icon,
+.tabs-ios .tab-button:hover:not(.disable-hover),
+.tabs-ios .tab-button[aria-selected=true],
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon,
+// android
+.tabs-md .tab-button,
+.tabs-md .tab-button[aria-selected=true],
+.tabs-md .tab-button .tab-button-icon,
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+    color: $white;
+}
+
+ion-content,
+ion-content ion-item {
+    background-color: $red !important;
+}
+
+ion-label {
+    font-size: 15px;
+}
+
+ion-tabs ion-label {
+    white-space: pre-wrap;
+}
+
+.item-md {
+    background-color: $red;
+}

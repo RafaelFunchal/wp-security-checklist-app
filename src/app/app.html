@@ -1,1 +1,25 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu side="left" [content]="mainMenu">
+    <ion-header>
+        <ion-toolbar>
+            <ion-title>Menu</ion-title>
+        </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+
+        <ion-list>
+            <ion-item onclick="window.open('http://wpsecuritychecklist.org/', '_system', 'location=yes'); return false;">
+                <ion-icon name="logo-rss" item-start></ion-icon>Blog
+            </ion-item>
+            <ion-item onclick="window.open('https://github.com/rafaelfunchal/wordpress-security-checklist', '_system', 'location=yes'); return false;">
+                <ion-icon name="logo-github" item-start></ion-icon>Github
+            </ion-item>
+            <ion-item onclick="window.open('https://twitter.com/rafaelfunchal', '_system', 'location=yes'); return false;">
+                <ion-icon name="logo-twitter" item-start></ion-icon>Rafael Funchal
+            </ion-item>
+        </ion-list>
+
+    </ion-content>
+</ion-menu>
+
+<ion-nav #mainMenu [root]="rootPage"></ion-nav>
